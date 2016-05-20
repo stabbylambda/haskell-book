@@ -41,3 +41,9 @@ sumDb = sum . filterDbNumber
 avgDb :: [DatabaseItem] -> Double
 avgDb = mean . filterDbNumber
   where mean xs = fromIntegral (sum xs) / fromIntegral (length xs)
+
+fibs :: [Integer]
+fibs = 1 : scanl (+) 1 fibs
+
+fibsN :: Int -> Integer
+fibsN x = fibs !! x
