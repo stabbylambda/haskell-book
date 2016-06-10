@@ -21,6 +21,7 @@ library
                      , Chapter11.Jammin
                      , Chapter11.Programmers
                      , Chapter11.BinaryTree
+                     , Chapter11.ChapterExercises
 
   build-depends:       base >= 4.7 && < 5
                      , time
